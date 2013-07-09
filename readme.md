@@ -1,4 +1,4 @@
-# Express Coffee Template 8 (1.8.1)
+# Express Coffee Template 9 (1.9.0)
 
 This is a Node Express CoffeeScript Stack Template
 
@@ -8,28 +8,31 @@ to use coffee-script and stylus for the client side.
 ## Technologies
 This is a template that can be used to create nodejs applications using 
 
-* Node v0.10.x
-* Express v3.2.x
-* CoffeeScript v1.6.x
-* Jade v0.30.0
-* Stylus v0.32.x 
-* bootstrap-stylus 2.3.1 (not a npm module)
-* Nib v0.9.x
-* Connect Assets v2.4.x
-* MongoDB / Mongoose 3.6.x
+- **Engine**: Node v0.10.x
+- **Framework**: Express v3.2.x
+- **Lang**: CoffeeScript v1.6.x
+- **Asset management**: asset-rack v2.2.x
+- **Template Language**: Jade v0.30.0
+  - configured using consolidate.js v0.9.1
+- **CSS Preprocessor**: Stylus v0.32.x 
+- **CSS Framework(s)**: 
+  - Axis-css v0.0.3
+  - Nib v0.9.x
+- **Database / Driver**: MongoDB / Mongoose 3.6.x
 
 ## Requirements
 
-* [NodeJs](http://nodejs.org)
-* [Express](http://expressjs.com)
-* [CoffeeScript](http://coffeescript.org)
-* [Jade](http://jade-lang.com/)
-* [Stylus](http://learnboost.github.io/stylus/)
-* [bootstrap-stylus](https://github.com/Acquisio/bootstrap-stylus)
-* [Nib](http://visionmedia.github.io/nib/)
-* [connect-assets](http://github.com/TrevorBurnham/connect-assets)
-* [Mocha](http://visionmedia.github.com/mocha/)
-* [Mongoose](https://github.com/LearnBoost/mongoose)
+- [NodeJs](http://nodejs.org)
+- [Express](http://expressjs.com)
+- [asset-rack](https://github.com/techpines/asset-rack)
+- [CoffeeScript](http://coffeescript.org)
+- [Jade](http://jade-lang.com/)
+- [Consolidate.js](https://github.com/visionmedia/consolidate.js)
+- [Stylus](http://learnboost.github.io/stylus/)
+- [axis-css](https://github.com/Acquisio/bootstrap-stylus)
+- [Nib](http://visionmedia.github.io/nib/)
+- [Mocha](http://visionmedia.github.com/mocha/)
+- [Mongoose](https://github.com/LearnBoost/mongoose)
 
 These will install with npm, just do 
 
@@ -93,10 +96,10 @@ to run mocha
 
 ## Thanks to
 
-* [Jeremy Ashkenas](https://github.com/jashkenas) for creating coffee-script
-* [TJ Holowaychuk](https://github.com/visionmedia) for creating express
-* [Miško Hevery](https://github.com/mhevery) for creating Jasmine-Node
-* [TJ Holowaychuk](https://github.com/visionmedia) for creating mocha and should.js
+- [Jeremy Ashkenas](https://github.com/jashkenas) for creating coffee-script
+- [TJ Holowaychuk](https://github.com/visionmedia) for creating express
+- [Miško Hevery](https://github.com/mhevery) for creating Jasmine-Node
+- [TJ Holowaychuk](https://github.com/visionmedia) for creating mocha and should.js
 
 ## About
 

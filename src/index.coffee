@@ -7,7 +7,6 @@ mongoose = require 'mongoose'
 # Create app instance.
 app = express()
 
-
 # Define Port
 app.port = process.env.PORT or process.env.VMC_APP_PORT or 3000
 
@@ -29,7 +28,7 @@ else
 app.use assets()
 # Set the public folder as static assets.
 app.use express.static(process.cwd() + '/public')
-# Express Session
+# Express Sessions
 store = new express.session.MemoryStore
 app.use express.cookieParser()
 app.use express.session(
@@ -48,7 +47,6 @@ app.use express.bodyParser()
 # Initialize routes
 routes = require './routes'
 routes(app)
-
 
 # Export application object
 module.exports = app
